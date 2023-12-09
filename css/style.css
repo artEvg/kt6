@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Montserrat:wght@200;300&family=Playpen+Sans:wght@100&family=Raleway:wght@500&family=Voltaire&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F7F7F7;
+}
+
+.wrapper {
+  padding: 0.5em;
+  display: grid;
+  grid-template-columns: 5% 10% 10% 10% 10% 10% 10% 10%;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+}
+
+.HOME {
+background-color: #29C5E7;
+}
+
+.home{
+  color: #E7F7FF;
+}
+
+.ABOUT_US{
+  background-color: #F4F3F4;
+}
+
+.about_us {
+  color: #B5B6B5;
+}
+
+.CAREERS {
+  background-color: #F4F3F4;
+}
+
+.careers {
+  color: #B5B6B5;
+}
+
+.CONTACT {
+  background-color: #F4F3F4;
+}
+
+.contact {
+  color: #B5B6B5;
+}
+
+.CUSTOMERS {
+  background-color: #F4F3F4;
+}
+
+.customers {
+  color: #B5B6B5;
+}
+
+.PARTNERS {
+  background-color: #F4F3F4;
+}
+
+.partners {
+  color: #B5B6B5;
+}
+
+.PROJECTS {
+  background-color: #F4F3F4;
+}
+
+.projects {
+  color: #B5B6B5;
+}
+
+.SERVICES {
+  background-color: #F4F3F4;
+}
+
+.services {
+  color: #B5B6B5;
+}
+
+.window1 {
+  top: 3em;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 30%;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  background-color: #E1E3E1;
+  left: 195px;
+  width: 1097px;
+}
+
+.window_1 {
+  color: #525152;
+  font-size: 2.5rem;
+}
+
+.window1_under {
+    padding: 0.5em;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    background-color: #F4F3F4;
+    left: 206px;
+    width: 1090px;
+    top: 48px;
+}
+
+.one1 {
+color: #29C5E7;
+}
+
+.two2 {
+  color: #8F8F8F;
+}
+
+.three3 {
+  color: #8F8F8F;
+}
+
+.four4 {
+  color: #8F8F8F;
+}
+
+
+.window_under2{
+  padding: 0.5em;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  background-color: #F9F7F9;
+  left: 120px;
+  width: 1127px;
+  top: 70px;
+  height: 250px;
+}
+
+
+
+.square{
+  padding: 0.5em;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(155, 152, 152);
+  margin-top: 25px;
+  position:relative;
+  left: 120px;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+}
+
+.OVER{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+.p:hover{
+  color: gray;
+}
+
+
+.window_under3 {
+  padding: 0.5em;
+  display: grid;
+  grid-template-columns: 100% 100% 100% ;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  background-color: #F9F7F9;
+  left: 1350px;
+  width: 1100px;
+  height: 350px;
+  top: 280px;
+}
+
+.end{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+.WW4{
+  text-align: center;
+}
+.c{
+  text-align: center;
+}
+.ww4{
+  /* position: relative;
+  left: 50px; */
+  text-align: center;
+}
+
+.futer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 200px;
+}
+
+.o{
+  text-align: center;
+
+}
+.sitemap {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.fr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.fr2 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.home:hover {
+  background-color: rgb(8, 209, 209);
+  color: rgb(255, 255, 255);
+}
+
+.aboutus:hover {
+  background-color: rgb(8, 209, 209);
+  color: rgb(255, 255, 255);
+}
+
+.services:hover {
+  background-color: rgb(8, 209, 209);
+  color: rgb(255, 255, 255);
+}
+
+.partners:hover {
+  background-color: rgb(8, 209, 209);
+  color: rgb(255, 255, 255);
+}
+
+.customers:hover {
+  background-color: rgb(8, 209, 209);
+  color: rgb(255, 255, 255);
+}
+
+.project:hover {
+  background-color: rgb(8, 209, 209);
+  color: rgb(255, 255, 255);
+}
+
+.careers:hover {
+  background-color: rgb(8, 209, 209);
+  color: rgb(255, 255, 255);
+}
+
+.contact:hover {
+  background-color: rgb(8, 209, 209);
+  color: rgb(255, 255, 255);
+}
+
+.sitemap_und {
+margin-top: -80px;
+text-align: center;
+justify-content: center;
+align-items: center;
+display: grid;
+grid-template-columns: 50% 50%;
+}
+
+.under {
+
+  padding: 0.5em;
+  display: grid;
+  grid-template-columns: 33% 33% 33% 33% ;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  background-color: #F9F7F9;
+  left: 200px;
+  width: 1100px;
+  height: 350px;
+  top: 500px;
+}
+
+.twitter div {
+  font-size: 20px;
+}
+
+
+.twitter {
+
+  font-size: 20px;
+}
+
+
+.social{
+  font-size: 20px;
+}
+
+.sitemap {
+  font-size: 20px;
+}
+
+.gg{
+  position: relative;
+  left: 300px;
+  margin-top: 50px;
+}
+.sot{
+  position: relative;
+  left: 185px;
+  margin-top: 40px;
+}
+
+p {
+  font-family:'Montserrat',sans-serif;
+  font-weight: 400;
+}
+
+.ser1 {
+  background-color:#B5B6B5 ;
+  margin-left: 10px;
+  border:#B5B6B5;
+  border-radius: 5px;
+}
+
+.ser2 {
+  background-color:#B5B6B5 ;
+  margin-left: 10px;
+  border:#B5B6B5;
+  border-radius: 5px;
+}
+
+.ser3 {
+  background-color:#B5B6B5 ;
+  margin-left: 20px;
+  border:#B5B6B5;
+  border-radius: 5px;
+}
+
+.ser4 {
+  background-color:#B5B6B5 ;
+  margin-left: 50px;
+  border:#B5B6B5;
+  border-radius: 5px;
+
+}
+
+.ser5 {
+  background-color:#B5B6B5 ;
+  margin-left: 20px;
+  left: 50px;
+  position: relative;
+  width: 460px;
+  border:#B5B6B5;
+  border-radius: 5px;
+}
+
+.home1 {
+  font-size: small;
+}
+
+.about1 {
+  font-size: small;
+}
+
+.services1 {
+  font-size: small;
+}
+
+.partners1 {
+  font-size: small;
+}
+
+.support1 {
+  font-size: small;
+}
+
+.contact1 {
+  font-size: small;
+}
+
+@media only screen and (max-width:840px) {
+  .wrapper, .window1, .window_1, .window1_under, .window_under2, .window_under3, .WORD, .end {
+      width:40%;
+      padding: 0.5em;
+      text-align: center;
+      position: relative;
+      justify-content: center;
+      height: 200px;
+  }
+  .body {
+     
+      display: flex;
+    
+      flex-wrap: wrap;
+  }
+
+  .p, .h1, .h2 {
+      font-size: 40px;
+     
+    }
+
+ 
+}
+
+@media only screen and (max-width:600px) {
+  .wrapper, .window1, .window_1, .window1_under, .window_under2, .window_under3, .WORD, .end {
+      width: 70%;
+   
+  }
+  .body {
+      flex-flow: column;
+  }
+ 
+  .p, .h1, .h2 {
+      font-size: 30px;
+     
+    }
+}
